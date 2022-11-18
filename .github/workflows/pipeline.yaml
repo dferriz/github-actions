@@ -13,8 +13,7 @@ jobs:
       # Checkout del código
       - uses: actions/checkout@v3
       # Instalar go
-      - name: Installs go
-        run: apt update && apt upgrade
+      - uses: actions/setup-go@v3
       # Ejecutar tests
       # - name: Execute tests
       #   run:
