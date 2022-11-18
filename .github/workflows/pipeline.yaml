@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checkout del código
-      - name: Code checkout
-        run: actions/checkout@v3
+      - uses: actions/checkout@v3
       # Instalar go
       - name: Installs go
         run: apt update && apt upgrade
