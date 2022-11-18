@@ -17,8 +17,8 @@ jobs:
       - name: Installs go
         run: apt update && apt upgrade
       # Ejecutar tests
-      - name: Execute tests
-        run:
+      # - name: Execute tests
+      #   run:
       # Docker build
-      - name: Docker build
-        run:
+      # - name: Docker build
+      #   run:
